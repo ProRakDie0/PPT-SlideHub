@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:type="TaskPaneApp">
+
+  <Id>a1b2c3d4-1234-5678-90ab-cdef01234567</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>SlideHubTeam</ProviderName>
+  <DefaultLocale>RU</DefaultLocale>
+  <DisplayName DefaultValue="SlideHub — Библиотека слайдов" />
+  <Description DefaultValue="Централизованный доступ к утверждённым слайдам" />
+
+  <Hosts>
+    <Host Name="Presentation" />
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://localhost:5500/index.html" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

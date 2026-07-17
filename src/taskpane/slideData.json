@@ -1,0 +1,23 @@
+[
+  {
+    "id": "slide_analytics",
+    "name": "Аналитика",
+    "tags": ["#Analytics", "#Charts"],
+    "preview": "./assets/previews/analytics-slide.png",
+    "fileUrl": "./assets/slides/analytics-slide.txt"
+  },
+  {
+    "id": "slide_team",
+    "name": "Команда",
+    "tags": ["#Team", "#About"],
+    "preview": "./assets/previews/team-slide.png",
+    "fileUrl": "./assets/slides/team-slide.txt"
+  },
+  {
+    "id": "slide_endscreen",
+    "name": "Вывод",
+    "tags": ["#End_Screen", "#About"],
+    "preview": "./assets/previews/endscreen-slide.png",
+    "fileUrl": "./assets/slides/endscreen-slide.txt"
+  }
+]

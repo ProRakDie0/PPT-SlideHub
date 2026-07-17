@@ -1,26 +1,34 @@
 {
   "compilerOptions": {
+    "strict": true,
     "allowJs": true,
-    "baseUrl": ".",
+    "rootDir": "src",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "jsx": "react",
     "noEmitOnError": true,
     "outDir": "lib",
     "sourceMap": true,
-    "target": "es5",
+    "target": "ES2020",
     "lib": [
       "es2015",
       "dom"
-    ]
+    ],
+    "forceConsistentCasingInFileNames": true
   },
+  "include": [
+    "src/**/*" 
+  ],
   "exclude": [
     "node_modules",
     "dist",
     "lib",
-    "lib-amd"
+    "lib-amd",
+    "test", 
+    "webpack.config.js",
+    "convertToSingleHost.js"
   ],
-  "ts-node": { 
-    "files": true 
+  "ts-node": {
+    "files": true
   }
 }
